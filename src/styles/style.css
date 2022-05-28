@@ -74,18 +74,21 @@ nav {
 }
 
 .welcome {
-  color: rgb(4, 175, 205);
   background-color: rgb(17, 54, 57);
   background-repeat: no-repeat;
   background-position: 6vw 6vh;
+  color: rgb(4, 175, 205);
   font-size: 2.2vw;
   font-weight: 100;
-  padding: 0vh 0vw 0vh 3vw;
-  margin: 0vh 0vw 0vh 0vw;
+}
+
+.welcome p {
+  padding: 0vh 0vw 0vh 0vw;
 }
 
 .img {
   padding: 0vh 5vw 0vh 5vw;
+  opacity: 95%;
   background: linear-gradient(175deg, rgb(6, 82, 86) 10%, rgb(17, 54, 57) 23%, black 67%);
 }
 
